@@ -12,6 +12,7 @@ void solve(vector<int> v) {
 		solve(v);
 		v.pop_back();
 	}
+	return;
 }
 
 int main() {
